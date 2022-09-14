@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Kocka</title>
+    </head>
+    <body>
+        <div class="allPage">
+            <div class="gameRules">
+                <p>
+                    <span id="closeGameRules">X</span>
+                </p>
+                <p>Pravidá hry: Začína vyznačený hráč, ktorý hádže kockou a zvyšuje si 
+                    aktuálne skóre. Keď je pre hráča dostatočné, klikne na podržať skóre 
+                    a aktuálne skóre mu je pripočítané do celkového skóre. Ak hráčovy, 
+                    ktorý hádže kockou padne 1, aktuálne skóre je vynulované a kockou 
+                    hádže druhý hráč. Hráč, ktorý bude mať celkové skóre 100 a viac 
+                    vyhráva.</p>
+            </div>
+            <div class="playground">
+
+                <div class="sectionLeft">
+                    <div class="totalScore totalScore0 active">
+                        <p id="name_0">
+                            Skóre 1. hráč
+                        </p>
+                        <p id="totalScorePlayer0">
+                            0
+                        </p>
+                    </div>
+
+                    <div class="currentScore currentScore0">
+                        <p>Aktuálne skóre</p>
+                        <p id="currentScore0">0</p>
+                    </div>
+                </div>
+
+                <div class="sectionMiddle">
+                    <div class="dice">
+                        <img src="1.png" alt="dice" class="diceImage">
+                    </div>
+
+                    <div class="middleText">
+                        <p class="btn rollDice confetti-button">
+                            Hodiť kockou
+                        </p>
+                        <p class="btn holdScore confetti-button">
+                            Podrzať skóre
+                        </p>
+                        <p class="btn newGame confetti-button">
+                            Nová hra
+                        </p>
+                    </div>
+                </div>
+
+                <div class="sectionRight">
+                    <div class="totalScore totalScore1">
+                        <p id="name_1">
+                            Skóre 2. hráč
+                        </p>
+                        <p id="totalScorePlayer1">
+                            0
+                        </p>
+                    </div>
+    
+                    <div class="currentScore currentScore1">
+                        <p>Aktuálne skóre</p>
+                        <p id="currentScore1">0</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

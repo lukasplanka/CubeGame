@@ -32,7 +32,6 @@ document.querySelector('.rollDice').addEventListener('click', function(){
         // change image
         let diceElement = document.querySelector('.diceImage')
         diceElement.style.display = 'block'
-        console.log(diceElement.src = dice + '.png')
 
         // add number from dice
         if (dice !== 1) {
